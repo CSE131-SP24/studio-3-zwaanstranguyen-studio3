@@ -9,7 +9,7 @@ public class Sieve2 {
 		
 		System.out.println("What is the number of your choice?");
 		int n = in.nextInt();	
-		int[] numbers = new int [n]; // made an array
+		int[] numbers = new int [n+1]; // made an array
 		
 		for (int i = 0; i < (numbers.length-1); i++) { // 
 		numbers [i]	= i;
